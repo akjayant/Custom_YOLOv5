@@ -2,10 +2,12 @@
 
 1. Change DATA_PATH in preprocess_data.py to be the folder of training data
 2. OUTPUT PATH  should be a directory with tree structure as- 
+```
          dir/images/train
          dir/labels/train
          dir/images/validation
          dir/labels/validation
+```
 3. Change wheat.yaml config accordingly
 
 ```
