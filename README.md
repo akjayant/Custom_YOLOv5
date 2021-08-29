@@ -19,4 +19,4 @@ names: [<names of classes>]
 5. Train the model
        `python train.py --img 1025 --batch 8 --epochs 100 --data wheat.yaml--cfg models/yolov5s.yaml --name wmdl`
        
-Credits - ULtralytics[https://github.com/ultralytics/yolov5] , Abhishek Thakur
+Credits - @Ultralytics [https://github.com/ultralytics/yolov5] , Abhishek Thakur
