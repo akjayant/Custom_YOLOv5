@@ -7,14 +7,13 @@
          dir/images/validation
          dir/labels/validation
 3. Change wheat.yaml config accordingly
-<br>
-`
+
+```
 train : 'dir/images/train'
 val :   'dir/images/validation'
 nc : <no of classes>
 names: [<names of classes>]
-`
-<br>
+```
 5. Train the model
        `python train.py --img 1025 --batch 8 --epochs 100 --data wheat.yaml--cfg models/yolov5s.yaml --name wmdl`
        
