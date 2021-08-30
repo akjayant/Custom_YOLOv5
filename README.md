@@ -22,7 +22,9 @@ nc : <no of classes>
 names: [<names of classes>]
 ```
 5. Train the model
-       ```python train.py --img 1025 --batch 8 --epochs 100 --data wheat.yaml--cfg models/yolov5s.yaml --name wmdl```
+```
+python train.py --img 1025 --batch 8 --epochs 100 --data wheat.yaml--cfg models/yolov5s.yaml --name wmdl
+```
 6. Test/Inference
 Best weights (.pt) file is in yolov5/runs.
 ```
