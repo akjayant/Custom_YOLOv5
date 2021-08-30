@@ -22,6 +22,10 @@ nc : <no of classes>
 names: [<names of classes>]
 ```
 5. Train the model
-       `python train.py --img 1025 --batch 8 --epochs 100 --data wheat.yaml--cfg models/yolov5s.yaml --name wmdl`
-       
+       ```python train.py --img 1025 --batch 8 --epochs 100 --data wheat.yaml--cfg models/yolov5s.yaml --name wmdl```
+6. Test/Inference
+Best weights (.pt) file is in yolov5/runs.
+```
+python detect.py <dir with images/ or a single image> --weights <model.pt file>
+```
 Credits - [Ultralytics](https://github.com/ultralytics/yolov5) , Abhishek Thakur
