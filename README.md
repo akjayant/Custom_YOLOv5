@@ -26,7 +26,7 @@ names: [<names of classes>]
 python train.py --img 1025 --batch 8 --epochs 100 --data wheat.yaml--cfg models/yolov5s.yaml --name wmdl
 ```
 6. Test/Inference
-<p>Best weights (.pt) file is in yolov5/runs.</p>
+Best weights (.pt) file is in yolov5/runs.
 ```
 python detect.py <dir with images/ or a single image> --weights <model.pt file>
 ```
