@@ -1,4 +1,5 @@
 ## Using YOLOV5 Object Detection for a Custom Dataset
+<img src='https://github.com/akjayant/Custom_YOLOv5/raw/main/results_wheat_dataset/2fd875eaa.jpg' height=500 width=500 align='center'>
 
 1.  Change DATA_PATH in yolov5/preprocess_data.py to be the folder of training data.
 2. OUTPUT PATH  should be a directory with tree structure as- 
