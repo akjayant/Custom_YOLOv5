@@ -1,19 +1,20 @@
 ## Using YOLOV5 Object Detection for a Custom Dataset
 
 1. Change DATA_PATH in yolov5/preprocess_data.py to be the folder of training data.
-2. Run
-```
-cd yolov5
-python preprocess_data.py
-```
-4. OUTPUT PATH  should be a directory with tree structure as- 
+
+2. OUTPUT PATH  should be a directory with tree structure as- 
 ```
          dir/images/train
          dir/labels/train
          dir/images/validation
          dir/labels/validation
 ```
-3. Change wheat.yaml config accordingly
+3. Run to populate data in train and validation folders
+```
+cd yolov5
+python preprocess_data.py
+```
+4. Change wheat.yaml config accordingly
 
 ```
 train : 'dir/images/train'
