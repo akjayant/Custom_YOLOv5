@@ -1,0 +1,4 @@
+train : '../yolo_wheat_data/images/train'
+val : '../yolo_wheat_data/images/validation'
+nc : 1
+names: ["wheat_head"]
